@@ -1,32 +1,72 @@
-.header {
+header {
 	position: fixed;
 	width: 100%;
+	left: 0px;
 	top: 0;
 	height: 1.5cm;
-	position: fixed;
 	background-color: #c2c9d4;
 }
 
 .logo {
 	float: left;
-	top: 0;
 	color: rgb(52, 52, 187);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	padding: 0px 16px;
-  }
+	padding:16px 16px 16px;
+}
 
-  .menu {
+.menu {
+	color: floralwhite;
 	float: right;
-	padding: 14px 16px;
-  }
+	padding: 16px;
+}
 
-  p.title{
+p.title{
 	  font-size: 30px;
 	  color: crimson;
-  }
+}
 
-  p.about {
+p.about {
 	line-height: 2;
 	font-size: 20px;
-  }
+}
+
+h2{
+	  color:darkturquoise;
+}
+
+body{
+	  background-color: goldenrod;
+}
+
+a:link{
+	color: fuchsia;
+}
+
+a:hover{
+	color: green;
+}
+
+a:visited{
+	color: rgb(179, 51, 115);
+}
+
+#img1{
+	float: left;
+}
+
+#img2{
+	float: right;
+}
+
+#img1{
+	float: left;
+}
+
+table{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	left: 20px;
+	margin: 10px;
+	border-collapse: collapse;
+}
