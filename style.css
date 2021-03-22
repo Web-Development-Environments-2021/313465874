@@ -4,107 +4,89 @@ header {
 	left: 0px;
 	top: 0;
 	height: 1.8cm;
-	background-color: #c2c9d4;
+	background-color: #f2f2f2;
 }
 
-.logo {
+#logo {
 	float: left;
-	width: 100px;
-  	height: 100px;
-	padding:16px 16px 16px;
+	width: 10%;
+	height: 10px;
 }
-
-.menu {
+ 
+#menu {
 	font-size: 22px;
-	color: floralwhite;
 	top: 20px;
 	padding: 16px;
 }
 
-p.title{
-	  font-size: 30px;
-	  color: crimson;
-}
-
-p.about {
-	line-height: 2;
-	font-size: 20px;
-}
-
-h2{
-	  color:darkturquoise;
-}
-
 body{
-	  background-color: goldenrod;
+	background-image: url('./images/background.gif');
+}
+
+p.title{
+	  font-size: 60px;
+	  color: #c568f0;
+}
+
+
+h1{
+	  color:#0fdfee;
+	  font-size: 45px;
+	  text-align: center;
 }
 
 a:link{
-	color: fuchsia;
+	color: rgb(41, 13, 141);
 }
 
 a:active{
-	color: coral;
+	color: rgb(12, 158, 226);
 }
 
 a:hover{
-	color: green;
+	color: rgb(85, 28, 179);
 }
 
 a:visited{
-	color: rgb(179, 51, 115);
-}
-
-#img1{
-	float: left;
-}
-
-#img2{
-	float: right;
-}
-
-#img1{
-	float: left;
+	color: rgb(2, 1, 2);
 }
 
 table{
+	color: #f2f2f2;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	left: 20px;
+	left: 400px;
 	margin: 10px;
 	border-collapse: collapse;
-}
-
-a.videos{
-	margin: 20px;
-}
-
-ol{
-	color: rgb(36, 23, 33);
-	text-align: right;
-	font-size: 18px;
-	line-height: 2;
-	padding-right: .6em;
-	background-position: 100% .4em;
-}
-
-ul{
-	text-align: right;
-	list-style-type: square;
-	padding-right: .6em;
-	background-position: 100% .4em;
+	border-color: #f2f2f2;
 }
 
 form{
-	margin-left: 10px;
+	color: #f2f2f2;
+	margin-left: 470px;
 	font-size: 20px;
+	font-family: sans-serif;
+}
+
+p.likeMe{
+	color: rgb(45, 186, 211);
+	font-size: 45px;
 }
 
 p.contact{
 	color: rgb(45, 186, 211);
 	font-size: 45px;
-
 }
 
+p.fb-like{
+	padding-left: 550px;
+}
 
-
+.qaTEXT{
+	color: #f2f2f2;
+	font-style:normal;
+	font-family:sans-serif;
+	margin-right: 50px;
+	line-height: 30px;
+	font-size: 20px;
+}
