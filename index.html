@@ -161,13 +161,13 @@
     <form method="POST" action="mailto:noyak@post.bgu.ac.il">
         <label>
           First Name:
-          <input type="text" placeholder="first name"><br><br>
+          <input type="text" name="first name" placeholder="first name"><br><br>
           Last Name:
-          <input type="text" placeholder="last name"><br><br>
+          <input type="text" name="last name" placeholder="last name"><br><br>
           E-mail address:
-          <input type="text" placeholder="name@domain.com"><br><br>
+          <input type="text" name="mail" placeholder="name@domain.com"><br><br>
           Subject:
-            <select class="custom-select" id="validationDefault04">
+            <select name="subject" class="custom-select" id="validationDefault04">
               <option> Choose an option </option>
               <option>I miss you</option>
               <option>I'm hungry</option>
@@ -175,7 +175,7 @@
              </select><br><br>
           Message:
           <br>
-          <textarea data-emoji-picker="true" rows="8" cols="50" type="text"></textarea><br>
+          <textarea name="message" data-emoji-picker="true" rows="8" cols="50" type="text"></textarea><br>
           <input type="Submit" value="Submit">
           <input type="Reset" value="Reset">
         </label>
